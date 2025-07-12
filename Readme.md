@@ -17,15 +17,7 @@ A beautiful terminal customization setup featuring Mikasa-themed fastfetch displ
 - Zsh or Bash shell
 - Fastfetch installed
 
-
-
 <img width="1329" height="676" alt="image" src="https://github.com/user-attachments/assets/77bb4a4f-8c58-46a1-b594-cb748e603d58" />
-
-
-
-
-
-
 
 ### Installation
 
@@ -188,6 +180,26 @@ Edit any `.jsonc` file in `~/.config/fastfetch/` to change colors:
 ```json
 "keyColor": "green"  // Available: red, green, blue, yellow, magenta, cyan, white
 ```
+
+### Customizing Image Padding
+
+If you want to adjust the image positioning, edit the padding values in your fastfetch config files:
+
+```json
+"padding": {
+    "top": 2,      // Adjust top spacing
+    "left": 12,    // Adjust left spacing
+    "right": 5     // Adjust right spacing
+}
+```
+
+**Quick adjustments:**
+
+- **More space around image**: Increase the values
+- **Tighter layout**: Decrease the values
+- **Center the image**: Make left and right equal
+- **Move image down**: Increase top value
+- **Move image up**: Decrease top value
 
 ### Adding Your Own Commands
 
