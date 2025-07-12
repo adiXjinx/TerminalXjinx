@@ -340,7 +340,6 @@ This project is open source. Feel free to modify and distribute!
 If you love this setup, consider:
 
 - ⭐ Starring this repository
-- 🍕 Buying me a coffee
 - 🎭 Sharing your customizations
 
 ---
