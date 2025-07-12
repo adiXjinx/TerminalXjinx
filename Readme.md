@@ -2,6 +2,8 @@
 
 A beautiful terminal customization setup featuring Mikasa-themed fastfetch displays and custom shell commands. Perfect for anime lovers who want their terminal to reflect their personality!
 
+<blockquote class="reddit-embed-bq" style="height:500px" data-embed-height="546"><a href="https://www.reddit.com/r/arch/comments/1lxae6n/noww_can_your_terminal_do_this/">NowW, can your terminal do this?? 🥴️</a><br> by<a href="https://www.reddit.com/user/adiXjinx/">u/adiXjinx</a> in<a href="https://www.reddit.com/r/arch/">arch</a></blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
+
 ## ✨ What's Included
 
 - **Custom Fastfetch Themes**: Multiple terminal display configurations
