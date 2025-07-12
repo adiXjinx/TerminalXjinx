@@ -28,6 +28,13 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 # Mikasaa commands
 
 
+function center_text() {
+    local width=$(tput cols)
+    local input="$1"
+    printf "%*s\n" $(((${#input} + width) / 2)) "$input"
+  }
+  
+
 function Mikasaa() {
   if [[ "$1" == "update" ]]; then
     sudo /usr/local/bin/Mikasa-update
@@ -140,7 +147,7 @@ function Mikasaa() {
 
   
   else 
-  echo -e "\e[95m yes mR??\n"
+  echo -e "\n >> $(center_text "yes mR??\n")"
   
 
   fi
@@ -239,11 +246,7 @@ function command_not_found_handler() {
   local idx=$(( ($RANDOM + $(date +%s%N)) % ${#MIKASAA_TEASES[@]} ))
   local tease="${MIKASAA_TEASES[$idx]}"
 
-  function center_text() {
-    local width=$(tput cols)
-    local input="$1"
-    printf "%*s\n" $(((${#input} + width) / 2)) "$input"
-  }
+  
 
   echo -e "\n >> $(center_text "$tease")"
 }
