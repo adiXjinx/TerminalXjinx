@@ -22,12 +22,6 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 
 ##................................................................................................................................................
 
-# custom commands for myself 
-
-setopt no_list_ambiguous
-
-
-# end of custom commands for myself 
 
 
 
