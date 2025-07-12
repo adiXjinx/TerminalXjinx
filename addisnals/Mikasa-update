@@ -1,0 +1,11 @@
+#!/bin/bash
+# Mikasaa update script 
+# it should be in /usr/local/bin/file_name
+# change the package manager based on your own needs
+apt update
+apt upgrade -y
+apt dist-upgrade -y
+apt autoremove -y
+apt clean
+flatpak update
+

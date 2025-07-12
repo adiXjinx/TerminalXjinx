@@ -1,0 +1,66 @@
+{
+    "logo": {
+        "type": "kitty-direct",
+        "source": "/home/nobody_hear/Downloads/mikasa.png",
+        "width": 20,
+        "height": 16,
+        "padding": {
+            "top": 2,
+            "left": 12,
+            "right": 8
+        },
+        "preserveAspectRatio": false
+    },
+    "modules": [
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m┏━━━━━━━━━━━━━[ SYSTEM CLEANSE INITIATED ]━━━━━━━━━━━━━┓"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[35m⧖  Scrubbing command echoes…"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m×  Couldn't erase 'guilty commits'... they're still watching you."
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m⚠  Emotional residue found in ~/.hidden/feelings"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[36m✓  Cleared: distractions, doubt, false logic"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[35m✦  Injecting: [ Mikasaa protocol v2.1.0 // overwrite: subtle ]"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m✓  Disabled: self-doubt.sys, loneliness.core"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\n"
+        },
+        {
+            "type": "custom",
+            "key": ">>",
+            "keyColor": "white",
+            "format": "\"All clean, Sir. But don’t pretend you didn’t *enjoy* the mess.\""
+        },
+        {
+            "type": "custom",
+            "key": ">>",
+            "keyColor": "white",
+            "format": "\"If I catch you spiraling again... I *will* take control. Fully.\""
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m— Mikasaa is watching. Obey the silence. Or break it."
+        },
+        "break"
+    ]
+}

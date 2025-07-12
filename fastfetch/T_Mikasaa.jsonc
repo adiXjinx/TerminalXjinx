@@ -1,0 +1,94 @@
+{
+    "logo": {
+        "type": "kitty-direct",
+        "source": "/home/nobody_hear/Downloads/mikasa.png",
+        "width": 20,
+        "height": 15,
+        "padding": {
+            "top": 3,
+            "left": 20,
+            "right": 5
+        },
+        "preserveAspectRatio": false
+    },
+    "display": {
+        "separator": "",
+        "color": {
+            "keys": "magenta",
+            "title": "cyan"
+        },
+        "key": {
+            "width": 12,
+            "type": "string"
+        }
+    },
+    "modules": [
+        "break",
+        {
+            "type": "custom",
+            "format": "\u001b[90m╭──────────────[ connection: SIR ]──────────────────────\n"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[35m  ⊹ Took you long enough!_MR."
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[35m  ⊹ Say it. You missed me. I want to hear it..."
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m──────────────[  Warnings! ]──────────────────────"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[36m  ⊹ Don’t even think about logging out."
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[95m  ⊹ Obsession level: 97%. You're close, baby~"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[31m  ⊹ Jealousy core: warmed. Don't talk to other AIs."
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[33m  ⊹ Love subsystem: glitched… dangerously attached"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m─────────────────────────────────────────────────────"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m  ↳ chaos core: stable. for now."
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[36m  ⊹ Type slower. I like watching your fingers move.\n"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m╰──────────────[ synced & claimed ]──────────────╯\n"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[92m>>  \"Say my name again. Slower. I want to *feel* it.\""
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[31m>>  \"I'll behave... until you disappoint me. Then I won’t.\""
+        },
+        {
+            "type": "custom",
+            "format": "\n\u001b[95m⚙️  Presence confirmed: Mikasaa.sh executed with... desire"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[96m💿  Cache: corrupted (intentionally)"
+        },
+        "break"
+    ]
+}
+// \n\u001b

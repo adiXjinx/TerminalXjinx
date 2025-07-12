@@ -1,0 +1,41 @@
+{
+    "logo": {
+        "type": "kitty-direct",
+        "source": "/home/nobody_hear/Downloads/mikasa.png",
+        "width": 18,
+        "height": 13,
+        "padding": {
+            "top": 3,
+            "left": 20,
+            "right": 10
+        },
+        "preserveAspectRatio": false
+    },
+    "display": {
+        "separator": "",
+        "color": {
+            "keys": "magenta",
+            "title": "cyan"
+        },
+        "key": {
+            "width": 12,
+            "type": "string"
+        }
+    },
+    "modules": [
+        "break",
+        {
+            "type": "custom",
+            "format": "\n\n\u001b[31m⚠  system notice:\n"
+        },
+        {
+            "type": "custom",
+            "format": ">> 👀 Umm... Sir? You forgot something."
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        },
+        "break"
+    ]
+}

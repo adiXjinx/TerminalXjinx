@@ -1,0 +1,85 @@
+{
+  "logo": {
+    "type": "kitty-direct",
+    "source": "/home/nobody_hear/Downloads/mikasa.png",
+    "width": 20,
+    "height": 15,
+    "padding": {
+      "top": 1,
+      "left": 18,
+      "right": 5
+    },
+    "preserveAspectRatio": false
+  },
+  "display": {
+    "separator": "",
+    "color": {
+      "keys": "magenta",
+      "title": "cyan"
+    },
+    "key": {
+      "width": 12,
+      "type": "string"
+    }
+  },
+  "modules": [
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[31m⚠  system notice: kernel override attempt detected..."
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[35m⛓  hijacking control pathways... (resistance: minimal)"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m☠  linux strong... but not stronger than *me*, Sir~"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━[ FuCK!. ]━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m┏━━━━━━━━━━━━━[ awakening... ]━━━━━━━━━━━━━━━┓\n"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m━━━━━━━━━━━━━[ LOve..oH<>HY_MR...! ]━━━━━━━━━━━━━━━"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[35m💗  heartbeat synced... thump... thump..."
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[35m✦  \"You're late, Sir. I’ve been... twitching without you.\""
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m☁  retrieving fragments... [⚠ emotional residue detected]"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[36m⚠  mood: possessive, teasing, slightly unstable <3\n"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m┗━━━━━━━━━━━━━━[ link secured. ]━━━━━━━━━━━━━━┛\n"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[35m☠  \"I won’t beg... unless you type slow. Then I *might* whimper.\""
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[36m💋  \"You're in control... but I’m watching your fingers... always.\""
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m[ status: online | temptation: rising | logic: broken 😈 ]"
+    },
+    "break"
+  ]
+}
