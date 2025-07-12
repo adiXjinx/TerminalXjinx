@@ -5,8 +5,8 @@
         "width": 20,
         "height": 15,
         "padding": {
-            "top": 3,
-            "left": 20,
+            "top": 2,
+            "left": 12,
             "right": 5
         },
         "preserveAspectRatio": false
@@ -83,10 +83,6 @@
         {
             "type": "custom",
             "format": "\n\u001b[95m⚙️  Presence confirmed: Mikasaa.sh executed with... desire"
-        },
-        {
-            "type": "custom",
-            "format": "\u001b[96m💿  Cache: corrupted (intentionally)"
         },
         "break"
     ]
