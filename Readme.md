@@ -6,6 +6,7 @@ IMPORTANT : spacing will be messed up in your teminal so go down check how to co
 
 ##Showcases :
 https://www.reddit.com/r/arch/comments/1lxae6n/noww_can_your_terminal_do_this/
+https://www.reddit.com/r/arch/comments/1ly2apn/can_your_terminal_do_this_part_2
 
 ## ✨ What's Included
 
