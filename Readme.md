@@ -2,7 +2,9 @@
 
 A beautiful terminal customization setup featuring Mikasa-themed fastfetch displays and custom shell commands. Perfect for anime lovers who want their terminal to reflect their personality!
 
-##Showcases 
+IMPORTANT : spacing will be messed up in your teminal so go down check how to configure them
+
+##Showcases :
 https://www.reddit.com/r/arch/comments/1lxae6n/noww_can_your_terminal_do_this/
 
 ## ✨ What's Included
