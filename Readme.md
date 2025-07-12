@@ -17,6 +17,16 @@ A beautiful terminal customization setup featuring Mikasa-themed fastfetch displ
 - Zsh or Bash shell
 - Fastfetch installed
 
+
+
+<img width="1329" height="676" alt="image" src="https://github.com/user-attachments/assets/77bb4a4f-8c58-46a1-b594-cb748e603d58" />
+
+
+
+
+
+
+
 ### Installation
 
 1. **Clone this repository**
