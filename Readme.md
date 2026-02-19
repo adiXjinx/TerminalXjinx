@@ -71,7 +71,7 @@ https://www.reddit.com/r/arch/comments/1ly2apn/can_your_terminal_do_this_part_2
    # Copy these sections from the provided zsh/.zshrc file:
 
    # 1. Add this at the TOP of your .zshrc (for startup display):
-   if [[ -o interactive ]]; then
+   if [[ -o interactive ]] && command -v fastfetch >/dev/null 2>&1; then
      echo -e "\n\e[31m⚠️  WARNING: She has taken control... #$@@Mikasaa*#LOve\e[0m\n"
      fastfetch --config ~/.config/fastfetch/T_Startup.jsonc --pipe false
    fi
@@ -93,7 +93,7 @@ https://www.reddit.com/r/arch/comments/1ly2apn/can_your_terminal_do_this_part_2
    # Copy these sections from the provided bash/.bashrc file:
 
    # 1. Add this at the TOP of your .bashrc (for startup display):
-   if [[ $- == *i* ]]; then
+   if [[ $- == *i* ]] && command -v fastfetch >/dev/null 2>&1; then
      echo -e "\n\e[31m⚠️  WARNING: She has taken control... #$@@Mikasaa*#LOve\e[0m\n"
      fastfetch --config ~/.config/fastfetch/T_Startup.jsonc --pipe false
    fi
@@ -117,7 +117,7 @@ https://www.reddit.com/r/arch/comments/1ly2apn/can_your_terminal_do_this_part_2
 
    ```bash
    # Copy your preferred image to the config path
-   cp image/mikaa.png ~/Downloads/mikasa.png
+   cp image/mikaa.png ~/.config/fastfetch/mikasa.png
    ```
 
 7. **Reload Your Shell**
@@ -173,7 +173,7 @@ Once installed, you can use these fun commands:
 
 ### Changing the Image
 
-1. Replace `~/Downloads/mikasa.png` with your preferred image
+1. Replace `~/.config/fastfetch/mikasa.png` with your preferred image
 2. Update the path in `~/.config/fastfetch/config.jsonc`:
    ```json
    "source": "/path/to/your/image.png"
@@ -229,7 +229,7 @@ If you want to integrate this with existing themes like Oh My Zsh or Powerlevel1
 
 ```bash
 # Add this BEFORE the instant prompt line in your .zshrc
-if [[ -o interactive ]]; then
+if [[ -o interactive ]] && command -v fastfetch >/dev/null 2>&1; then
   echo -e "\n\e[31m⚠️  WARNING: She has taken control... #$@@Mikasaa*#LOve\e[0m\n"
   fastfetch --config ~/.config/fastfetch/T_Startup.jsonc --pipe false
 fi
@@ -242,7 +242,7 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
 ```bash
 # Add this at the top of your .bashrc
-if [[ $- == *i* ]]; then
+if [[ $- == *i* ]] && command -v fastfetch >/dev/null 2>&1; then
   echo -e "\n\e[31m⚠️  WARNING: She has taken control... #$@@Mikasaa*#LOve\e[0m\n"
   fastfetch --config ~/.config/fastfetch/T_Startup.jsonc --pipe false
 fi
@@ -267,6 +267,24 @@ brew update && brew upgrade
 ```
 
 ## 🔧 Troubleshooting
+
+### WSL Startup Script Not Working
+
+If you are on Windows + WSL and nothing appears at shell startup:
+
+1. Make sure your shell loads `~/.bashrc` (or `~/.zshrc`) and that the startup block is inside that file.
+2. Use Windows Terminal (or a terminal with image protocol support).
+3. Keep the fastfetch image at `~/.config/fastfetch/mikasa.png` (all included JSONC files now use this path).
+4. If your terminal does not support inline images, edit your config and set:
+   ```json
+   "logo": { "type": "none" }
+   ```
+
+You can test startup config manually with:
+
+```bash
+fastfetch --config ~/.config/fastfetch/T_Startup.jsonc --pipe false
+```
 
 ### Fastfetch Not Found
 
