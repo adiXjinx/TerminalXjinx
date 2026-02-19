@@ -1,10 +1,10 @@
 {
       "logo": {
-    "type": "kitty-direct",
+    "type": "auto",
     // Path to the image file used as logo
     ///home/nobody_hear/Downloads/PikPng.com_anime-girl-transparent-png_5134206.png
     ///home/nobody_hear/Pictures/terminal/PikPng.com_anime-girl-transparent-png_5134206-ascii-art.png
-    "source": "/home/nobody_hear/Downloads/mikasa.png",
+    "source": "~/.config/fastfetch/mikasa.png",
     "width": 20,
     "height": 15,
     "padding": {

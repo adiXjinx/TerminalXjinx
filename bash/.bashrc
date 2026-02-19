@@ -1,6 +1,6 @@
 # at the top of .bashrc
 # you can change the fastfetch configs based on your own needs
-if [[ $- == *i* ]]; then
+if [[ $- == *i* ]] && command -v fastfetch >/dev/null 2>&1; then
   echo -e "\n\e[31m⚠️  WARNING: She has taken control... #$@@Mikasaa*#LOve\e[0m\n"
   fastfetch --config ~/.config/fastfetch/T_Startup.jsonc --pipe false
 fi

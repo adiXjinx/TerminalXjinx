@@ -1,7 +1,7 @@
 {
     "logo": {
-        "type": "kitty-direct",
-        "source": "/home/nobody_hear/Downloads/mikasa.png",
+        "type": "auto",
+        "source": "~/.config/fastfetch/mikasa.png",
         "width": 18,
         "height": 13,
         "padding": {
